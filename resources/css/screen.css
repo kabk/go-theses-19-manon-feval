@@ -1,0 +1,142 @@
+/*
+font-family: 'PT Serif', serif;
+font-family: 'PT Serif Caption', serif;
+font-family: 'Halant', serif;
+font-family: 'Libre Baskerville', serif;
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.dropbtn {
+    background-color: transparent;
+    padding: 16px;
+    font-family: serif;
+	font-style: italic;
+	font-size: 15px;
+	text-decoration: underline;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: fixed; top: 90px; left: 50px;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	font-family: serif;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 15px;
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: transparent;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: transparent;
+							font-weight: bold;
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: transparent;
+							font-weight: bold;
+}
+
+
+.memoire{
+	width:964px;
+	margin:auto;
+}
+.chapitre{
+	float:left;
+	width: 964px;
+}
+.chapitre h2{
+	float:left;
+	width: 100%;
+	font-family: Libre Baskerville;
+	font-size:85px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 110%;
+	letter-spacing: 3px;
+}
+.chapitre h3{
+	float:left;
+	width: 100%;
+	font-family: Libre Baskerville;
+	font-size:85px;
+	text-align: right;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 110%;
+	letter-spacing: 3px;
+}
+.titre{
+	float:left;
+	width: 100%;
+}
+.text{
+	float:left;
+	width:100%;
+	position: relative;
+}
+.text .paragraph{
+	float:left;
+	margin:0 0 0 30%;
+	padding:0 50px 0 50px;
+	text-indent: 50px;
+	font-size: 20px;
+	font-family: 'PT Serif', serif;
+}
+.text .quote{
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	width: 30%;
+	height:0px;
+	margin:0;
+	text-align: right;
+	font-style: italic;
+	font-size: 15px;
+	font-family: 'PT Serif Caption', serif;
+}
+.quote.fixed{
+	height:initial;
+	position:relative !important;
+}
+
+
+
+
+body.black{
+	background: black;
+	color:white !important;
+	font-weight: 300;
+}
+body.white{
+	background: white;
+	color:black !important;
+}
+
+
