@@ -95,6 +95,7 @@ html {
 .titre{
 	float:left;
 	width: 100%;
+	position: relative;
 }
 .text{
 	float:left;
@@ -138,5 +139,27 @@ body.white{
 	background: white;
 	color:black !important;
 }
+
+.image-container--left {
+	position: fixed;
+    top: 10vh;
+    left: 0;
+ }
+
+ .image-container--right {
+ 	position: fixed;
+    top: 10vh;
+    right: 0;
+ }
+
+ .image {
+	width: auto;
+	height: 80vh;
+ }
+
+  .image-small {
+	width: auto;
+	height: 60vh;
+ }
 
 
